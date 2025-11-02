@@ -68,6 +68,6 @@ Este script fue desarrollado con el apoyo de ChatGPT (modelo GPT-5) para la estr
 Si quieres citar este código, puedes hacerlo así:
 
 **APA 7ma edición:**\
-Cabrera Tapia, R. (2025, 1 de noviembre). *Código en R para descargar los facsímiles de las elecciones presidenciales, de diputados y de senadores en Chile 2025* [Repositorio en GitHub]. Con apoyo de ChatGPT. GitHub. <https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main>
+Cabrera Tapia, R. (2025, 1 de noviembre). *Código en R para descargar los facsímiles de las elecciones presidenciales, de diputados y de senadores en Chile 2025* [Repositorio en GitHub]. Con apoyo de ChatGPT. GitHub. <https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/>
 
 **Licencia:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) © Roberto Cabrera Tapia
