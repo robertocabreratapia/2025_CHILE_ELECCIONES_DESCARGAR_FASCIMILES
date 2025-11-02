@@ -194,9 +194,11 @@ pb <- progress_bar$new(
 
 pwalk(pdfs_a_descargar %>% select(url, cargo, id, num_region, nombre_region),
       function(url, cargo, id, num_region, nombre_region) {
-        archivo <- ifelse(cargo == "PRESIDENTE",
-                          "PRESIDENTE_2025.pdf",
-                          paste0(cargo, "_", str_pad(id, 2, pad="0"), "_", num_region, "_REGION_", nombre_region, ".pdf"))
+        archivo <- ifelse(
+          cargo == "PRESIDENTE",
+          "2025_CHILE_PRESIDENTE.pdf",
+          paste0("2025_CHILE_", cargo, "_", str_pad(id, 2, pad = "0"), "_", num_region, "_REGION_", nombre_region, ".pdf")
+        )
         ruta_local <- file.path(carpeta_destino, archivo)
         
         if(!file.exists(ruta_local)) {

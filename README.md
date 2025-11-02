@@ -2,14 +2,14 @@
 
 ## Descripción
 
-Este script, elaborado para fines netamente académicos, permite descargar automáticamente los facsímiles/maquetas de los votos en PDF de las elecciones presidenciales, de diputados y senadores en Chile, programadas para el 16 de noviembre de 2025. Los PDFs son oficiales y publicados por el SERVEL. Si buscas sólo un facsímil, puedes descargarlo directamente desde la carpeta [INPUTS](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/INPUTS)
+Este script, elaborado para fines netamente académicos, permite descargar automáticamente los facsímiles/maquetas de los votos en PDF de las elecciones presidenciales, de diputados y senadores en Chile, programadas para el 16 de noviembre de 2025. Los PDFs son oficiales y publicados por el SERVEL. Si buscas sólo un facsímil, puedes descargarlo directamente desde la carpeta [INPUTS](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/INPUTS).
 
 El script está en [TRABAJO](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/TRABAJO). Su nombre es "251101 Elecciones nacionales, descarga automática facsimiles SERVEL.R"
 
 Al ejecutarlo, el script:
 
 -   Verifica la existencia de cada PDF antes de descargarlo.
--   Descarga los PDFs en la carpeta `INPUTS` dentro de la `carpeta_base`.
+-   Descarga los PDFs en la carpeta [INPUTS](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/INPUTS) dentro de la `carpeta_base`.
 -   Genera automáticamente las carpetas necesarias si no existen.
 -   Mide el tiempo total del proceso. En mi caso, tarda aproximadamente 2 minutos en descargar la totalidad de los archivos.
 
@@ -20,6 +20,16 @@ carpeta_base/\
 ├─ INPUTS/ \# Descarga de PDFs de facsímiles\
 ├─ TRABAJO/ \# Aquí se guarda este script\
 └─ OUTPUTS/ \# Carpeta reservada para resultados futuros
+
+## Estructura de nombres
+
+Los facsímiles en PDF se guardan en la carpeta [INPUTS](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/INPUTS), siguiendo la siguiente estructura para los nombres:
+
+AÑO_CHILE_CARGO_UNIDADELECTORAL_REGION_NOMBREREGION.pdf
+
+Así, por ejemplo, el facsímil para la elección 2025 de diputados del distrito 14, ubicado en la Región Metropolitana, se llama: \
+\
+2025_CHILE_DIPUTADOS_14_13_REGION_METROPOLITANA.pdf
 
 ## Requisitos
 
