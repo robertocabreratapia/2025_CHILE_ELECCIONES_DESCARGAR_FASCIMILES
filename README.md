@@ -6,6 +6,7 @@ Este script permite descargar automáticamente los facsímiles/maquetas de los v
 
 El script:
 
+-   Está en \TRABAJO\251101 Elecciones nacionales, descarga automática facsimiles SERVEL.R
 -   Verifica la existencia de cada PDF antes de descargarlo.
 -   Descarga los PDFs en la carpeta `INPUTS` dentro de la `carpeta_base`.
 -   Genera automáticamente las carpetas necesarias si no existen.
