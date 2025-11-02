@@ -27,7 +27,7 @@ Los facsímiles en PDF se guardan en la carpeta [INPUTS](https://github.com/robe
 
 AÑO_CHILE_CARGO_UNIDADELECTORAL_REGION_NOMBREREGION.pdf
 
-Así, por ejemplo, el facsímil para la elección 2025 de diputados del distrito 14, ubicado en la Región Metropolitana, se llama: \
+Así, por ejemplo, el facsímil para la elección 2025 de diputados del distrito 14, ubicado en la Región Metropolitana, se llama:\
 \
 2025_CHILE_DIPUTADOS_14_13_REGION_METROPOLITANA.pdf
 
@@ -69,3 +69,5 @@ Si quieres citar este código, puedes hacerlo así:
 
 **APA 7ma edición:**\
 Cabrera Tapia, R. (2025, 1 de noviembre). *Código en R para descargar los facsímiles de las elecciones presidenciales, de diputados y de senadores en Chile 2025* [Repositorio en GitHub]. Con apoyo de ChatGPT. GitHub. <https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_FACSIMILES>[https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_FACSIMILES](#0){.uri}
+
+**Licencia:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) © Roberto Cabrera Tapia
