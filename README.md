@@ -2,11 +2,12 @@
 
 ## Descripción
 
-Este script permite descargar automáticamente los facsímiles/maquetas de los votos en PDF de las elecciones presidenciales, de diputados y senadores en Chile, programadas para el 16 de noviembre de 2025. Los PDFs son oficiales y publicados por el SERVEL. Si buscas sólo un facsímil, puedes descargarlo directamente desde \INPUTS.
+Este script, elaborado para fines netamente académicos, permite descargar automáticamente los facsímiles/maquetas de los votos en PDF de las elecciones presidenciales, de diputados y senadores en Chile, programadas para el 16 de noviembre de 2025. Los PDFs son oficiales y publicados por el SERVEL. Si buscas sólo un facsímil, puedes descargarlo directamente desde la carpeta [INPUTS](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/INPUTS)
 
-El script:
+El script está en [TRABAJO](https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_DESCARGAR_FASCIMILES/tree/main/TRABAJO). Su nombre es "251101 Elecciones nacionales, descarga automática facsimiles SERVEL.R"
 
--   Está en \TRABAJO\251101 Elecciones nacionales, descarga automática facsimiles SERVEL.R
+Al ejecutarlo, el script:
+
 -   Verifica la existencia de cada PDF antes de descargarlo.
 -   Descarga los PDFs en la carpeta `INPUTS` dentro de la `carpeta_base`.
 -   Genera automáticamente las carpetas necesarias si no existen.
@@ -53,7 +54,7 @@ NOTA: SERVEL va cambiando las rutas, por lo que este código, aunque puede servi
 
 Este script fue desarrollado con el apoyo de ChatGPT (modelo GPT-5) para la estructuración del código, comentarios explicativos y buenas prácticas en la descarga automatizada de PDFs.
 
-Si usas este código, por favor cítalo como:
+Si quieres citar este código, puedes hacerlo así:
 
 **APA 7ma edición:**\
-Cabrera Tapia, R. (2025, 1 de noviembre). *Código R para descargar los facsímiles de las elecciones presidenciales, diputados y senadores en Chile 2025*. Con apoyo de ChatGPT.GitHub. <https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_FACSIMILES>
+Cabrera Tapia, R. (2025, 1 de noviembre). *Código en R para descargar los facsímiles de las elecciones presidenciales, de diputados y de senadores en Chile 2025* [Repositorio en GitHub]. Con apoyo de ChatGPT. GitHub. <https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_FACSIMILES>[https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_FACSIMILES](#0){.uri}

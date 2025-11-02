@@ -15,6 +15,23 @@
 # 5. Los PDFs se descargarán en INPUTS.
 ##########
 
+## LICENCIA Y CITACIÓN ###
+# Autor: Roberto Cabrera Tapia
+# Fecha: 1 de noviembre de 2025
+# Licencia: Creative Commons Atribución 4.0 Internacional (CC BY 4.0)
+# https://creativecommons.org/licenses/by/4.0/
+#
+# Se permite compartir y adaptar este código, incluso con fines comerciales,
+# siempre que se otorgue el crédito correspondiente al autor.
+#
+# Por favor cite así:
+# Cabrera Tapia, R. (2025, 1 de noviembre). Código R para descargar los facsímiles de las elecciones 
+# presidenciales, diputados y senadores en Chile 2025. Con apoyo de ChatGPT. 
+# GitHub. https://github.com/robertocabreratapia/2025_CHILE_ELECCIONES_FACSIMILES
+##########
+
+
+
 # --- MARCA DE INICIO DEL PROCESO ---
 inicio <- Sys.time()  
 if(!require(pacman)) install.packages("pacman")
