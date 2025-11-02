@@ -15,10 +15,10 @@ Al ejecutarlo, el script:
 
 ## Estructura de carpetas
 
-Al ejecutar el script, se crean estas subcarpetas dentro de la `carpeta_base`: \
-carpeta_base/ \
-├─ INPUTS/ \# Descarga de PDFs de facsímiles \
-├─ TRABAJO/ \# Aquí se guarda este script \
+Al ejecutar el script, se crean estas subcarpetas dentro de la `carpeta_base`:\
+carpeta_base/\
+├─ INPUTS/ \# Descarga de PDFs de facsímiles\
+├─ TRABAJO/ \# Aquí se guarda este script\
 └─ OUTPUTS/ \# Carpeta reservada para resultados futuros
 
 ## Requisitos
@@ -28,8 +28,9 @@ carpeta_base/ \
 
 ## Cómo usar el script
 
+0.  Crea una carpeta para guardar el código y las descargas, esta será tu `carpeta_base.`
 1.  Guardar este script en la subcarpeta `TRABAJO` de la `carpeta_base`.
-2.  Modificar únicamente la variable `ruta_base` al inicio del script, copiando y pegando la ruta completa entre comillas.
+2.  Modificar únicamente la variable `ruta_base` al inicio del script, copiando y pegando la ruta completa entre comillas (verifica el uso de "/" en la ruta (no \\!) . Esto causa muchos errores.
 3.  Ejecutar todo el script de inicio a fin en RStudio.
 4.  Los PDFs se descargarán en la carpeta `INPUTS`.
 
